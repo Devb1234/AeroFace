@@ -38,10 +38,6 @@ Thumbs.db
 *.joblib
 *.pkl
 
-# Data cache (optional if dataset is large or confidential)
-data/embeddings/
-data/*.tgz
-data/*.zip
 
 # Streamlit logs
 logs/
