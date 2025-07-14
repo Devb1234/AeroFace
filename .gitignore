@@ -3,7 +3,6 @@ __pycache__/
 *.py[cod]
 *.pyo
 *.pyd
-*.pkl
 *.pickle
 *.log
 *.tmp
@@ -36,7 +35,6 @@ Thumbs.db
 *.h5
 *.hdf5
 *.joblib
-*.pkl
 
 
 # Streamlit logs
