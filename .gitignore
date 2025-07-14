@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.pickle
+*.log
+*.tmp
+*.DS_Store
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb~  # temporary save files
+
+# Streamlit
+.streamlit/config.toml
+.streamlit/*.json
+
+# System
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Model files
+*.h5
+*.hdf5
+*.joblib
+*.pkl
+
+# Data cache (optional if dataset is large or confidential)
+data/embeddings/
+data/*.tgz
+data/*.zip
+
+# Streamlit logs
+logs/
