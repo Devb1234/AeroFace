@@ -2,7 +2,11 @@
 
 A comprehensive face recognition web application built with Streamlit, MTCNN, and DeepFace. AeroFace can detect and recognize faces in uploaded images using state-of-the-art deep learning models.
 
-## 🌟 Features
+## � Live Demo
+
+Try the application online: **[AeroFace Live App](https://aeroface-mdcesfxybdyb6n72xnzrr4.streamlit.app/)**
+
+## �🌟 Features
 
 - **Real-time Face Detection**: Uses MTCNN for accurate face detection
 - **Face Recognition**: Powered by DeepFace with FaceNet embeddings
@@ -127,11 +131,13 @@ The project follows a structured development approach documented in Jupyter note
 ```
 streamlit==1.35.0
 opencv-python-headless==4.9.0.80
-numpy==1.24.4
+numpy==1.23.5                # Downgraded to be compatible with TensorFlow 2.12.0
 pillow==10.2.0
 mtcnn==0.1.1
 deepface==0.0.79
 scikit-learn==1.3.2
+tensorflow==2.12.0
+protobuf==4.25.3             # Compatible and safe
 ```
 
 ## 🎨 Application Versions
