@@ -4,7 +4,7 @@ A comprehensive face recognition web application built with Streamlit, MTCNN, an
 
 ## � Live Demo
 
-Try the application online: **[AeroFace Live App](https://aeroface-87wljkmrufzyvvbhsc4apd.streamlit.app/)**
+Try the application online: **[AeroFace Live App](https://aeroface.streamlit.app/)**
 
 ## �🌟 Features
 
