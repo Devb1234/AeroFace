@@ -19,15 +19,16 @@ Try the application online: **[AeroFace Live App](https://aeroface.streamlit.app
 
 ```
 AeroFace/
-├── app.py                          # Basic Streamlit app (single face)
-├── streamlit_app.py               # Enhanced Streamlit app (multiple faces)
-├── requirements.txt               # Python dependencies
+├── app.py
+├── packages.txt
+├── streamlit_app.py
+├── requirements.txt
 ├── data/
-│   ├── lfw-funneled/             # Original LFW dataset
-│   ├── processed_faces_mtcnn/    # MTCNN processed faces
+│   ├── lfw-funneled/
+│   ├── processed_faces_mtcnn/
 │   └── embeddings/
-│       └── knn_classifier.pkl    # Trained KNN model
-└── notebooks/                     # Development notebooks
+│       └── knn_classifier.pkl
+└── notebooks/
     ├── Week1_Data_Extraction.ipynb
     ├── Week2_Face_Detection_MTCNN.ipynb
     ├── Week3_Face_Embedding_and_Classifier.ipynb
